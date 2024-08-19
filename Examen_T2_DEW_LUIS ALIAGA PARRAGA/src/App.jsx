@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import Menu from './Componentes/Menu';
-import Banner from './Componentes/Banner';
+import Banner from './Componentes/Cabecera';
 import ProductList from './Componentes/ProductList';
 import Delivery from './Componentes/Delivery';
 import Footer from './Componentes/Footer';
