@@ -1,0 +1,21 @@
+.delivery {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  .text-container {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+  }

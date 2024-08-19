@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .menu-item {
+    margin: 0 15px;
+    padding: 5px;
+    color: green;
+    cursor: pointer;
+  }
+  
+  .menu-item.order {
+    color: red;
+  }
+  
+  .menu-item:hover {
+    background-color: yellow;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }

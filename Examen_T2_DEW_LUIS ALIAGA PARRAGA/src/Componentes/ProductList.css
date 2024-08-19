@@ -1,0 +1,24 @@
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .product {
+    text-align: center;
+    max-width: 30%;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .product h3:hover {
+    color: red;
+  }
