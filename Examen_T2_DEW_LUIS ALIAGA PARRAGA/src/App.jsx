@@ -1,5 +1,4 @@
 import { Fragment } from 'react';
-
 import Menu from './Componentes/Menu';
 import Banner from './Componentes/Banner';
 import ProductList from './Componentes/ProductList';
