@@ -1,28 +1,30 @@
 .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .menu-item {
-    margin: 0 15px;
-    padding: 5px;
-    color: green;
-    cursor: pointer;
-  }
-  
-  .menu-item.order {
-    color: red;
-  }
-  
-  .menu-item:hover {
-    background-color: yellow;
-  }
-  
-  input[type="text"] {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid gray;
-  }
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  padding: 10px 20px;
+  color: green; /* Color original del texto */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item.order {
+  color: red; /* Color especial para la opción "Ordena aquí" */
+}
+
+.menu-item:hover {
+  background-color: yellow; /* Color de fondo al pasar el mouse */
+  color: black; /* Color del texto al pasar el mouse */
+}
