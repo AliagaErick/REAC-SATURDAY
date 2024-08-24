@@ -1,5 +1,4 @@
-import { Fragment } from "react"
-
+import { Fragment } from "react";
 
 function Mensaje(){
     return (
