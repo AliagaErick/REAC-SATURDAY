@@ -1,17 +1,18 @@
-import { Fragment } from "react";
-import Mensaje from "./Componente/Mensaje";
-import Contador from "./Componente/Contador";
-import MiCard from "./Componente/Card";
-import Lista from "./Componente/Lista";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { Fragment, useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Formulario from "./componente/Formulario";
+
 
 function App() {
+
   return (
     <>
-      <Mensaje />
-      <Contador />
-      <MiCard />
-      <Lista />
+      <div className="container containmer-fluid">
+        <br />
+        <br />
+        <h1>Ingresa tus datos</h1>
+        <Formulario />
+      </div>
     </>
   );
 }
