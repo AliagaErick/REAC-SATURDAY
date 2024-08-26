@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
-// Componente para el formulario con validación
+// Componente para el formulario
 function Formulario() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    // Función de validación para nombres y apellidos
+    // validacion para nombres y apellidos
     const validarNombre = (name) => /^[a-zA-Z\s]+$/.test(name);
 
-    // Función de validación para el correo electrónico
+    // validacion para el correo electrónico
     const validarEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
     const handleSubmit = (e) => {
